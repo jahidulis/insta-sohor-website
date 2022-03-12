@@ -77,6 +77,64 @@
                 <h1>Reported posts</h1>
             </div>
         </main>
+        <section id="question-answer" class="container">
+            <div>
+              <h4>How Does <strong class="text-primary">JavaScript</strong> Work?</h4>
+              <p>
+                <strong>Ans: </strong>JavaScript is a single threaded synchronous
+                programming language. Which means it executes one line at a time
+                maintaining a specific order. But it also allows asynchronous behavior
+                like callbacks. It is used on both the server and the client computer
+                to make web pages delivered from the server interactively displayed on
+                the client computer browser using animations, clickable buttons, popup
+                menus, and other techniques. JavaScript has a standard library of
+                objects, such as Array, Date, and Math, as well as a core set of
+                language components, such as operators, control structures, and
+                statements. JavaScript is used to respond to custom requests generated
+                by JS code running on the host computer's browser.
+              </p>
+            </div>
+            <div>
+              <h4>
+                What Does JavaScript
+                <strong class="text-primary">EventLoop</strong> do?
+              </h4>
+              <p>
+                <strong>Ans : </strong>The secret behind JavaScript's asynchronous
+                programming is the event loop. JS executes all operations on a single
+                thread, but using a few smart data structures, it gives us the
+                illusion of multi-threading which is called event loop. which is
+                responsible for executing the code, collecting and processing events,
+                and executing queued tasks .Before pushing callbacks from the Task
+                Queue to the Call Stack, the event loop waits for the Call Stack to be
+                cleared. The event loop is triggered once the Stack is cleared, and it
+                examines the Task Queue for available callbacks. If any are found, it
+                moves them to the Call Stack, waits for the Call Stack to clear, and
+                then repeats the procedure.
+              </p>
+            </div>
+            <div>
+              <h4>
+                What Is The Difference Between
+                <strong class="text-primary">LocalStorage</strong> &
+                <strong class="text-primary">SessonStorage</strong>?
+              </h4>
+              <p>
+                <strong>Ans: </strong>For saving data on the client, HTML web storage
+                provides two objects: window.localStorage - saves data that does not
+                have an expiration date. sessionStorage - saves information for a
+                single session (data is lost when the browser tab is closed) The
+                localStorage Object is as follows: The data is stored in the
+                localStorage object with no expiration date. When the browser is
+                closed, the data is not destroyed, and it will be available the next
+                day, week, or year. The sessionStorage Object is as follows: The
+                sessionStorage object is similar to the localStorage object, with the
+                exception that it only saves data for one session. When the user exits
+                the specified browser tab, the data is destroyed.
+              </p>
+            </div>
+          </section>
+      
         <footer></footer>
 
         <!-- add javascript  file  -->
